@@ -1,12 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians: setup
+# Math magicians
 
-> This is the first project of the Math Magicians application. I set up the environment and tools needed to develop a React application. 
-
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations and Read a random math-related quote.
 ## Screen Short
 
-![react](https://user-images.githubusercontent.com/108806646/199004542-38a0af64-f9ca-46ea-adbc-efbbe6fd87c5.gif)
+### Calculator
+
+<p align="center">
+  <img width="500" alt="calculator" src="https://user-images.githubusercontent.com/108806646/199450080-b33198e3-7cc3-4872-a177-de7e87ba1010.png">
+</p>
+
+### Math Magicians (3 sub-pages)
+
+<p align="center">
+<img width="805" alt="magic" src="https://user-images.githubusercontent.com/108806646/199515833-69158c78-1261-4317-a6de-df918e9e9beb.png">
+</p>
 
 ## Built With
 
@@ -14,7 +23,7 @@
 
 ## Live Demo
 
-[Math magicians Link](https://math-magician-olivier.netlify.app/)
+[Math magicians Link](https://math-magician-olivier.netlify.app)
 
 ### Prerequisites
 
