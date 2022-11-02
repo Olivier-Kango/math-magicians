@@ -17,7 +17,6 @@
   margin: 10px auto;
   width: 75%;
   padding: 0;
-  box-shadow: 10px 10px 10px #858693;
 }
 
 .Calculator ul li {
@@ -36,9 +35,11 @@
 }
 
 .result {
+  font-family: 'Times New Roman', Times, serif;
   background: #858693;
   color: white;
   font-size: 34px;
+  font-weight: 400;
   grid-column: 1/5;
   text-align: right;
 }
