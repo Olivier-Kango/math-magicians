@@ -44,7 +44,7 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
-  .Calculator ul {
+  .Calculator div {
     width: 650px;
     margin: 40px auto;
   }
