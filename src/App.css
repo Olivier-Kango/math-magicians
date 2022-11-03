@@ -2,7 +2,7 @@
   font-size: 20px;
 }
 
-.Calculator ul {
+.Calculator div {
   background: #bababa;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -12,8 +12,8 @@
   padding: 0;
 }
 
-.Calculator ul li {
-  list-style: none;
+button {
+  border: none;
   padding: 30px 15px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .Calculator ul {
+  .Calculator div {
     width: 650px;
     margin: 40px auto;
   }
