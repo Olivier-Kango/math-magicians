@@ -9,7 +9,6 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className="Calculator">
-        <h1>Calculator</h1>
         <ul>
           <li className="result">0</li>
           <li className="left">AC</li>
