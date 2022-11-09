@@ -4,6 +4,7 @@
 
 .container {
   background: #bababa;
+  border: 2px solid black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2px;
@@ -14,7 +15,7 @@
 
 button {
   border: none;
-  padding: 30px 15px;
+  padding: 25px 15px;
 }
 
 .left {
@@ -35,7 +36,7 @@ button {
   font-weight: 400;
   grid-column: 1/5;
   text-align: right;
-  padding: 25px 15px;
+  padding: 20px 15px;
 }
 
 .zero {
@@ -46,7 +47,7 @@ button {
 
 @media only screen and (min-width: 768px) {
   .container {
-    width: 650px;
-    margin: 40px auto;
+    width: 500px;
+    margin: 70px 0 20px 0;
   }
 }

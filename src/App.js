@@ -1,6 +1,17 @@
 import React from 'react';
+import {
+  Routes,
+  Route,
+} from 'react-router-dom';
 import Calculator from './components/Calculator';
 import './App.css';
+import Home from './components/Home';
+import Quote from './components/Quote';
+import Navbar from './components/Navbar';
+
+const container = {
+  padding: '20px 30px',
+};
 
 class App extends React.Component {
   constructor(props) {
@@ -10,8 +21,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="Calculator">
-        <Calculator />
+      <div className="Calculator" style={container}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
+        </Routes>
       </div>
     );
   }
