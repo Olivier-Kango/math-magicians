@@ -1,7 +1,7 @@
 import React from 'react';
 
 const h3 = {
-  margin: '30vh 0',
+  margin: '25vh 0',
   textAlign: 'center',
   color: '#00004B',
 };

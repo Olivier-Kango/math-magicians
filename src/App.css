@@ -51,3 +51,22 @@ button {
     margin: 70px 0 20px 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  h3, p {
+    text-align: center;
+  }
+
+  .container-calculator {
+    flex-direction: column;
+  }
+
+  .container-calculator h3 {
+    display: none;
+  }
+}
