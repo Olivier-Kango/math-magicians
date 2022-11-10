@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 const h3 = {
-  margin: '60px 0',
+  margin: '40px 0',
 };
 
 const container = {
@@ -26,7 +26,7 @@ const Calculator = () => {
   };
 
   return (
-    <div style={container}>
+    <div style={container} className="container-calculator">
       <h3 style={h3}>Let do some Maths!</h3>
       <div className="container">
         <div className="result">{items.next || items.operation || items.total || 0}</div>

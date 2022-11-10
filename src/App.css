@@ -48,7 +48,15 @@ button {
 @media only screen and (min-width: 768px) {
   .container {
     width: 500px;
-    margin: 70px 0 20px 0;
+    margin: 40px 0 20px 0;
+  }
+
+  button {
+    padding: 23px 15px;
+  }
+
+  .result {
+    padding: 15px 15px;
   }
 }
 
@@ -58,7 +66,8 @@ button {
     gap: 30px;
   }
 
-  h3, p {
+  h3,
+  p {
     text-align: center;
   }
 
@@ -68,5 +77,9 @@ button {
 
   .container-calculator h3 {
     display: none;
+  }
+
+  .container {
+    width: 100%;
   }
 }
