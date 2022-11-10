@@ -66,10 +66,7 @@ button {
     gap: 30px;
   }
 
-  h3 {
-    text-align: center;
-  }
-
+  h3,
   p {
     text-align: center;
   }
