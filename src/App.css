@@ -29,7 +29,7 @@ button {
 }
 
 .result {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', serif;
   background: #858693;
   color: white;
   font-size: 34px;
@@ -66,7 +66,10 @@ button {
     gap: 30px;
   }
 
-  h3,
+  h3 {
+    text-align: center;
+  }
+
   p {
     text-align: center;
   }
