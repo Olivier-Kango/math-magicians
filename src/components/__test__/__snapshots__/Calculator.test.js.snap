@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Calculator component shows numbers 1`] = `
+<button
+  class="left"
+  type="button"
+>
+  AC
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 2`] = `
+<button
+  class="left"
+  type="button"
+>
+  +/-
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 3`] = `
+<button
+  class="left"
+  type="button"
+>
+  %
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 4`] = `
+<button
+  class="left"
+  type="button"
+>
+  7
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 5`] = `
+<button
+  class="left"
+  type="button"
+>
+  8
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 6`] = `
+<button
+  class="left"
+  type="button"
+>
+  9
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 7`] = `
+<button
+  class="left"
+  type="button"
+>
+  4
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 8`] = `
+<button
+  class="left"
+  type="button"
+>
+  5
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 9`] = `
+<button
+  class="left"
+  type="button"
+>
+  6
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 10`] = `
+<button
+  class="left"
+  type="button"
+>
+  1
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 11`] = `
+<button
+  class="left"
+  type="button"
+>
+  2
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 12`] = `
+<button
+  class="left"
+  type="button"
+>
+  3
+</button>
+`;
+
+exports[`Testing Calculator component shows numbers 13`] = `
+<button
+  class="left"
+  type="button"
+>
+  .
+</button>
+`;
+
+exports[`Testing Calculator component shows operators 1`] = `
+<button
+  class="right"
+  type="button"
+>
+  ÷
+</button>
+`;
+
+exports[`Testing Calculator component shows operators 2`] = `
+<button
+  class="right"
+  type="button"
+>
+  x
+</button>
+`;
+
+exports[`Testing Calculator component shows operators 3`] = `
+<button
+  class="right"
+  type="button"
+>
+  -
+</button>
+`;
+
+exports[`Testing Calculator component shows operators 4`] = `
+<button
+  class="right"
+  type="button"
+>
+  +
+</button>
+`;
+
+exports[`Testing Calculator component shows operators 5`] = `
+<button
+  class="right"
+  type="button"
+>
+  =
+</button>
+`;

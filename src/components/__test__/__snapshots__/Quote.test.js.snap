@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Home page: should render 1`] = `
+<h3
+  style="margin: 30vh 0px; text-align: center; color: rgb(0, 0, 75);"
+>
+  Mathematics is not about numbers, equations, computations, or algorithms:
+  <br />
+  It is about understanding.
+  <br />
+  <br />
+  <i>
+    William Paul Thurston
+  </i>
+</h3>
+`;
