@@ -17,7 +17,7 @@ const Calculator = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <div type="button" className="result">{items.next || items.operation || items.total || 0}</div>
       <button type="button" className="left" onClick={handleClick}>AC</button>
       <button type="button" className="left" onClick={handleClick}>+/-</button>
