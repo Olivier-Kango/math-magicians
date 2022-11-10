@@ -26,9 +26,9 @@ const Navbar = () => (
   <header style={header}>
     <h1 style={h1}>Math Magicians</h1>
     <nav style={myStyle}>
-      <Link to="/" style={link}>Home</Link>
-      <Link to="/calculator" style={link}>Calculator</Link>
-      <Link to="/quote" style={link}>Quote</Link>
+      <Link to="/" style={link} className="links">Home</Link>
+      <Link to="/calculator" style={link} className="links">Calculator</Link>
+      <Link to="/quote" style={link} className="links">Quote</Link>
     </nav>
   </header>
 );

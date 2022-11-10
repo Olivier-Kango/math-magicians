@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 const h3 = {
-  margin: '60px 0',
+  margin: '40px 0',
 };
 
 const container = {

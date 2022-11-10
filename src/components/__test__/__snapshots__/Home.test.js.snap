@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Home page: should render 1`] = `
+<h3
+  style="margin: 60px 0px;"
+>
+  Welcome to our page!
+</h3>
+`;
