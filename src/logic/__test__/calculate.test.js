@@ -34,4 +34,22 @@ describe('testing the calculate function', () => {
     result = calculate(result, '=');
     expect(result.total).toBe('2.5');
   });
+
+  // Mod
+  test('test Mod', () => {
+    let result = calculate(obj, '9');
+    result = calculate(result, '%');
+    result = calculate(result, '4');
+    result = calculate(result, '=');
+    expect(result.total).toBe('1');
+  });
+
+  // Multiplication
+  test('test Multiplication', () => {
+    let result = calculate(obj, '2');
+    result = calculate(result, 'x');
+    result = calculate(result, '3');
+    result = calculate(result, '=');
+    expect(result.total).toBe('6');
+  });
 });
