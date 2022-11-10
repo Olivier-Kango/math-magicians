@@ -3,11 +3,10 @@ import React from 'react';
 import Calculator from '../Calculator';
 
 describe('Testing Calculator component', () => {
-
   // Show button numbers
   it('shows numbers', () => {
     render(<Calculator />);
-       
+
     const buttons = document.getElementsByClassName('left');
 
     Array.from(buttons).forEach((n) => {
@@ -18,7 +17,7 @@ describe('Testing Calculator component', () => {
   // Show calculator operators
   it('shows operators', () => {
     render(<Calculator />);
-  
+
     const operators = document.getElementsByClassName('right');
 
     Array.from(operators).forEach((n) => {

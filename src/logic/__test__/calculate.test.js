@@ -5,8 +5,8 @@ describe('testing the calculate function', () => {
   const obj = {
     total: 0,
     next: null,
-    operation: null
-  }
+    operation: null,
+  };
 
   // Addition
   test('test addition', () => {
