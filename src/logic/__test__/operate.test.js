@@ -21,16 +21,4 @@ describe('testing operation', () => {
     const result = operate(operandOne, operandTwo, 'x');
     expect(result).toBe('10');
   });
-
-  // Division
-  test('test division', () => {
-    const result = operate(operandTwo, operandOne, '÷');
-    expect(result).toBe('2.5');
-  });
-
-  // mOD
-  test('test mod', () => {
-    const result = operate(operandTwo, operandOne, '%');
-    expect(result).toBe('1');
-  });
 });
